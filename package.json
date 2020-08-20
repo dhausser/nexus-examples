@@ -1,0 +1,37 @@
+{
+  "name": "nexus-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nexus dev",
+    "build": "nexus build",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.5.0",
+    "nexus": "^0.26.1"
+  },
+  "devDependencies": {
+    "@prisma-labs/prettier-config": "^0.1.0",
+    "@prisma/cli": "^2.5.0",
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.1",
+    "ts-jest": "^26.2.0"
+  },
+  "prettier": "@prisma-labs/prettier-config",
+  "jest": {
+    "preset": "ts-jest",
+    "globals": {
+      "ts-jest": {
+        "diagnostics": {
+          "warnOnly": true
+        }
+      }
+    },
+    "testEnvironment": "node"
+  }
+}
