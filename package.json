@@ -20,7 +20,7 @@
     "@prisma/cli": "^2.5.0",
     "@types/jest": "^26.0.10",
     "jest": "^26.4.1",
-    "ts-jest": "^26.2.0"
+    "ts-jest": "^26.3.0"
   },
   "prettier": "@prisma-labs/prettier-config",
   "jest": {
