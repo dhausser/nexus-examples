@@ -12,13 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^2.5.0",
+    "@prisma/client": "^2.6.0",
     "nexus": "^0.26.1"
   },
   "devDependencies": {
     "@prisma-labs/prettier-config": "^0.1.0",
-    "@prisma/cli": "^2.5.0",
-    "@types/jest": "^26.0.10",
+    "@prisma/cli": "^2.6.0",
+    "@types/jest": "^26.0.12",
     "jest": "^26.4.1",
     "ts-jest": "^26.3.0"
   },
